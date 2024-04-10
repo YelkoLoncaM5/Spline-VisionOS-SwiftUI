@@ -12,6 +12,7 @@
 		E313FDE32BC373A200F2325E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313FDE22BC373A200F2325E /* ContentView.swift */; };
 		E313FDE52BC373A400F2325E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E313FDE42BC373A400F2325E /* Assets.xcassets */; };
 		E313FDE82BC373A400F2325E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E313FDE72BC373A400F2325E /* Preview Assets.xcassets */; };
+		E313FDF12BC374B100F2325E /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = E313FDF02BC374B100F2325E /* SplineRuntime */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E313FDF12BC374B100F2325E /* SplineRuntime in Frameworks */,
 				E313FDDF2BC373A200F2325E /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +101,7 @@
 			name = SplineVisionOS;
 			packageProductDependencies = (
 				E313FDDE2BC373A200F2325E /* RealityKitContent */,
+				E313FDF02BC374B100F2325E /* SplineRuntime */,
 			);
 			productName = SplineVisionOS;
 			productReference = E313FDD92BC373A200F2325E /* SplineVisionOS.app */;
@@ -128,6 +131,9 @@
 				Base,
 			);
 			mainGroup = E313FDD02BC373A200F2325E;
+			packageReferences = (
+				E313FDEF2BC374B100F2325E /* XCRemoteSwiftPackageReference "spline-ios" */,
+			);
 			productRefGroup = E313FDDA2BC373A200F2325E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -356,10 +362,26 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		E313FDEF2BC374B100F2325E /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/splinetool/spline-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		E313FDDE2BC373A200F2325E /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
+		};
+		E313FDF02BC374B100F2325E /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E313FDEF2BC374B100F2325E /* XCRemoteSwiftPackageReference "spline-ios" */;
+			productName = SplineRuntime;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
