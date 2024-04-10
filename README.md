@@ -9,12 +9,6 @@ Este proyecto aprovecha el poder de Spline y VisionOS para ofrecer experiencias 
 - **VisionOS**: Sistema operativo especializado en realidad aumentada y virtual de Apple.
 - **SwiftUI**: Utilizado para desarrollar la interfaz de usuario.
 
-## Ejemplos de Uso :eyes:
-
-- **Modo ventana**: Ideal para tiendas online que desean ofrecer a sus clientes una vista detallada y tridimensional de productos, mejorando la experiencia de compra.
-- **Modo volumétrico**: Perfecto para aplicaciones de arquitectura y diseño, permitiendo a los usuarios explorar y comprender mejor el espacio y diseño de edificios o estructuras.
-- **Modo inmersivo**: Transforma la visita a museos o ciudades históricas en una experiencia única, permitiendo a los usuarios sumergirse completamente en entornos virtuales a través de la realidad aumentada o virtual.
-
 ### Spline :art:
 
 * [:computer: Página](https://spline.design/).
