@@ -23,8 +23,8 @@ Este proyecto aprovecha el poder de Spline y VisionOS para ofrecer experiencias 
 
 ### Visualización de la aplicación :iphone:
 ### Modo Ventana: :octocat:
-![App Pantallas](https://github.com/YelkoLoncaM5/Pokedex-UIKIT-CoreML/blob/main/AppInterfaz.png)
+![App Pantallas](https://github.com/YelkoLoncaM5/Spline-VisionOS-SwiftUI/blob/main/Imagenes/Ventana.png)
 ### Modo Volumétrico: :octocat:
-![App Pantallas](https://github.com/YelkoLoncaM5/Pokedex-UIKIT-CoreML/blob/main/AppInterfaz.png)
+![App Pantallas](https://github.com/YelkoLoncaM5/Spline-VisionOS-SwiftUI/blob/main/Imagenes/Volumen.png)
 ### Modo Inmersivo: :octocat:
-![App Pantallas](https://github.com/YelkoLoncaM5/Pokedex-UIKIT-CoreML/blob/main/AppInterfaz.png)
+![App Pantallas](https://github.com/YelkoLoncaM5/Spline-VisionOS-SwiftUI/blob/main/Imagenes/Inmersivo.png)
